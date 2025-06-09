@@ -2,7 +2,7 @@
 
 ## Overview:
 
-This project compares the inference performance of a simple machine learning model across multiple languages, with a focus on Python and C++. Using the same ONNX-serialized model, we evaluate how fast each language can run predictions over 1000 iterations.
+This project compares the inference performance of a simple machine learning model across multiple languages, with a focus on Python and C++. Using the same ONNX-serialized model, we can evaluate how fast each language can run predictions over 1000 iterations.
 
 The pipeline includes:
 - ✅ A mock churn prediction model (RandomForest) trained in Python
@@ -15,6 +15,7 @@ This repo is ideal for developers interested in:
 - Profiling ML inference latency
 - Understanding ONNX Runtime usage across languages
 - Comparing Python vs. C++ performance in real-world deployment
+- Use it as a base to expand your own tests on
 
 ## Steps
 
