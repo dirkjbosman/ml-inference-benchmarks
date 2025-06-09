@@ -1,0 +1,54 @@
+# ============================
+# Python Ignored Files
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# ============================
+# C++ Ignored Files
+# ============================
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+core
+
+# ============================
+# Shared / Misc
+# ============================
+
+# ONNX models (optional - if generated during builds)
+*.onnx
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.swp
+*.swo
+.DS_Store
