@@ -6,7 +6,7 @@ This project compares the inference performance of a simple machine learning mod
 
 The pipeline includes:
 - ✅ A mock churn prediction model (RandomForest) trained in Python
-- 📦 Exported to ONNX format for cross-platform compatibility
+- 📦 Exported to ONNX format (https://github.com/microsoft/onnxruntime) for cross-platform compatibility
 - 🐍 Python-based inference using onnxruntime
 - 💻 C++-based inference using the ONNX Runtime C++ API
 - 🐳 Docker-based benchmarking setup for reproducibility
